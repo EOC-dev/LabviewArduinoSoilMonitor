@@ -4,7 +4,7 @@ Basically what it says on the tin. Written in LabView using the LINX addon to in
 
 ## Installation and setup
 
-First install [LabView](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445) according to the instructions, then install the [LINX](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445](https://www.ni.com/gate/gb/GB_EVALTLKTLINXLVH/US)) addon according to its instructions (sadly only available for windows right now). 
+First install [LabView](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445) according to the instructions, then install the [LINX](https://www.ni.com/en/support/downloads/software-products/download.labview.html#487445](https://www.ni.com/gate/gb/GB_EVALTLKTLINXLVH/US)) addon according to its instructions (sadly only available for windows as of writing). 
 
 In order to use the email feature, first enter the "Send Email" block in the "Send Reminder" state (shown below). I had used Gmail to send the emails, and have left some relevant fields populated to ease using that provider as well. You will need to make your own account and provide those credentials.
 
