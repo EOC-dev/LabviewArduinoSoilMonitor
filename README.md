@@ -10,6 +10,12 @@ In order to use the email feature, first enter the "Send Email" block in the "Se
 
 ![Location](images/SendEmailBlock.png)
 
+For the hardware I had used an Arduino Uno R3 and simple capacitative moisture sensors. Connect the sensors as per the providers instructions -- for me it was simply connecting the VCC, GND, and analog output pins between the sensor and the board. I had Chosen A0 as my analog pin, but you can change this on the dashboard if you choose another using the A(n) channel setting:
+
+![Location](images/ArduinoParameters.png)
+
+Also make sure that the COM port is set correctly!
+
 ## Usage
 
 This repo includes two labview files -- one for using the sketch with hardware, and one using the sketch with user set soil moisture levels. I made the latter for troubleshooting the underlying state machines without also having to simultaniously troubleshoot the hardware, and is the easiest way to test out the functionality of the code.
